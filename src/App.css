@@ -1,0 +1,15 @@
+body
+{
+  background-color:blueviolet;
+  color:black;
+  padding-left:560px;
+}
+button
+{
+  margin-left:100px;
+}
+input
+{
+  margin-left:5px;
+  margin-bottom:10px;
+}

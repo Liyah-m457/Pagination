@@ -1,0 +1,125 @@
+{
+  "places": [
+
+    {
+      "title": "Paris",
+      "description": "The romantic capital city of France known for the Eiffel Tower.",
+      "image": "Paris.jpeg"
+    },
+
+    {
+      "title": "Statue of Liberty",
+      "description": "A famous symbol of freedom located in New York City.",
+      "image": "StatueOfLiberty.jpeg"
+    },
+
+    {
+      "title": "Big Ben",
+      "description": "The iconic clock tower located in London, England.",
+      "image": "BigBen.jpeg"
+    },
+
+    {
+      "title": "Leaning Tower of Pisa",
+      "description": "A world-famous tilted tower located in Pisa, Italy.",
+      "image": "Pisa.jpeg"
+    },
+
+    {
+      "title": "Taj Mahal",
+      "description": "A beautiful white marble monument located in Agra, India.",
+      "image": "TajMahal.jpeg"
+    },
+
+    {
+      "title": "Christ the Redeemer",
+      "description": "A giant statue of Jesus overlooking Rio de Janeiro, Brazil.",
+      "image": "ChristTheRedeemer.jpeg"
+    },
+
+    {
+      "title": "Great Pyramid of Giza",
+      "description": "One of the oldest and greatest pyramids in Egypt.",
+      "image": "Pyramid.jpeg"
+    },
+
+    {
+      "title": "Colosseum",
+      "description": "An ancient Roman amphitheater located in Rome, Italy.",
+      "image": "Colosseum.jpeg"
+    },
+
+    {
+      "title": "Sydney Opera House",
+      "description": "A famous performing arts center in Sydney, Australia.",
+      "image": "SydneyOperaHouse.jpeg"
+    },
+
+    {
+      "title": "Great Wall of China",
+      "description": "A historic wall stretching across northern China.",
+      "image": "GreatWall.jpeg"
+    },
+
+    {
+      "title": "CN Tower",
+      "description": "A tall observation tower located in Toronto, Canada.",
+      "image": "CNTower.jpeg"
+    },
+
+    {
+      "title": "Uluru",
+      "description": "A massive red rock formation located in Australia.",
+      "image": "Uluru.jpeg"
+    },
+
+    {
+      "title": "Mahabalipuram",
+      "description": "A historic coastal town in Tamil Nadu known for stone temples.",
+      "image": "Mahabalipuram.jpeg"
+    },
+
+    {
+      "title": "Mount Fuji",
+      "description": "Japan’s famous snow-capped volcanic mountain.",
+      "image": "MountFuji.jpeg"
+    },
+
+    {
+      "title": "Mount Everest",
+      "description": "The tallest mountain in the world located in the Himalayas.",
+      "image": "Everest.jpeg"
+    },
+
+    {
+      "title": "Himalayas",
+      "description": "A majestic mountain range known for the world’s tallest peaks.",
+      "image": "Himalayas.jpeg"
+    },
+
+    {
+      "title": "Niagara Falls",
+      "description": "A breathtaking waterfall located between the USA and Canada.",
+      "image": "NiagaraFalls.jpeg"
+    },
+
+    {
+      "title": "Burj Al Arab",
+      "description": "A luxurious sail-shaped hotel located in Dubai.",
+      "image": "BurjAlArab.jpeg"
+    },
+
+    {
+      "title": "Golden Dome",
+      "description": "A stunning historic church in Germany with beautiful architecture.",
+      "image": "GoldenDome.jpeg"
+    },
+
+    {
+      "title": "Burj Khalifa",
+      "description": "The tallest building in the world located in Dubai.",
+      "image": "BurjKhalifa.jpeg"
+    }
+
+  ]
+}
