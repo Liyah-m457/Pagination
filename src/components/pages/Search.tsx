@@ -1,8 +1,14 @@
+import SearchIcon from '@mui/icons-material/Search';
+
 function Search(props) {
 
   return (
 
-    <div>
+    <div className="
+      ml-[350px]
+      flex
+      items-center
+    ">
 
       <input
 
@@ -15,7 +21,6 @@ function Search(props) {
           w-[500px]
           text-black
           rounded-xl
-          ml-[350px]
         "
 
         onChange={(e) =>
@@ -24,6 +29,11 @@ function Search(props) {
         }}
 
       />
+
+      <SearchIcon className="
+        ml-[-40px]
+        text-gray-500
+      "/>
 
     </div>
 
