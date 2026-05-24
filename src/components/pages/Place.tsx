@@ -4,21 +4,35 @@ function PostList(props)
 {
 
   const [places, setPlaces] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const [error, setError] = useState("");
 
   useEffect(() => {
 
     async function getData()
     {
 
-      const response = await fetch("/buildings.json"); //uses api
+      try
+      {
 
-      const data = await response.json(); //api response
+          const response = await fetch("/buildings.json");
+          const data = await response.json();
 
-      setPlaces(data.places);
+          setPlaces(data.places);
+          setLoading(false);
 
+      }
+
+      catch
+      {
+
+          setError("Error loading data");
+          setLoading(false);  
+      }
     }
 
-    getData();
+  getData();
 
   }, []);
 
@@ -37,7 +51,15 @@ function PostList(props)
   );
 
   const currentPlaces = filteredPlaces.slice(start, end);
-
+   if (loading)
+  {
+    return <h1>Loading...</h1>
+  }
+  if (error)
+  {
+    return <h1>{error}</h1>
+  }
+  
   return (
 
     <div className="
