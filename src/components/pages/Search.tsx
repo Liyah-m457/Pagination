@@ -5,7 +5,9 @@ function Search(props) {
     <div>
 
       <input
+
         type="text"
+
         placeholder="Search destinations..."
 
         className="
@@ -19,7 +21,6 @@ function Search(props) {
         onChange={(e) =>
         {
           props.setSearch(e.target.value)
-          props.setPage(1)
         }}
 
       />
