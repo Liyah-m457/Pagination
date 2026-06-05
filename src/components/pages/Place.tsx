@@ -98,7 +98,7 @@ mb-[10px]
 
             />
 
-            <div className="p-[20px]">
+            <div className="p-[20px] text-black">
 
               <h2 className="
                 text-[30px]

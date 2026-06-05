@@ -1,11 +1,16 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Data from "./components/pages/Data";
+import Head from "./components/Head";
 
-function Details()
-{
+function App() {
   return (
-  <div>
-    <Data />
-  </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Data />} />
+        <Route path="/folio" element={<Head />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
-export default Details; 
+
+export default App;

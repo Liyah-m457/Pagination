@@ -15,6 +15,7 @@ function Head()
     
     return (
         <>
+        <div style={{ backgroundColor: "#2b0000" }}>
                 <section className="img1">
                 <img src="inlogo.jpeg"></img>
                 <h3><b>Lumio</b></h3>
@@ -34,7 +35,7 @@ function Head()
                 <Projects />
                 <Login setUsername={setUsername}></Login>
                 <Contact />
-        </>
+       </div> </>
     )
 }
 export default Head
